@@ -1,0 +1,40 @@
+body {
+        font-family: "Ubuntu Mono", monospace;
+	background-color: #ff0000;
+	background-size: 10em;
+	color: #ffffff;
+	background-image: url(pattern.png);
+}
+
+h2, h1, strong {
+	color: #00ff00;
+}
+
+a {
+	color: #0f0;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+.container {
+	margin: 3em;
+	padding: 1em;
+	background-color: #000000;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: #0f0;
+	border: solid 2px;
+	padding: 1em;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+button:hover {
+	background-color: #0f0;
+	color: #000;
+}
